@@ -18,7 +18,7 @@ const fetchMovie = async (url: string) => {
   return result.data.results;
 };
 
-// 리액트 119 use 훅
+// 리액트 19 use 훅
 // ErrorBoundary  - > 렌더링 중에 발생하는 오류를 핸들링 하기 위해서 사용하는 패턴
 // 전통적으로 클래스 컴포넌트로 작성되어야 합니다.
 export default function Movie() {
